@@ -111,4 +111,18 @@ router.post('/logout', (req, res) => {
     res.json({ message: 'Logged out successfully' });
 });
 
+
+
+
+router.get('/search', async (req, res) => {
+
+    try {
+        
+
+    } catch(error){
+
+    }
+
+});
+
 module.exports = router;
